@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:*Vpc*",
+        "ec2:*Subnet*",
+        "ec2:*RouteTable*",
+        "ec2:*InternetGateway*",
+        "ec2:*NatGateway*",
+        "ec2:*NetworkAcl*",
+        "ec2:*SecurityGroup*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
